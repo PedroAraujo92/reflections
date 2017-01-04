@@ -1,19 +1,20 @@
+https://yuml.me/edit/ed973836
+
 What happens when you initialize a repository? Why do you need to do it?
 
 	When I initialize a repository that directory becomes my project folder. I do it so that directory becomes a git repository.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-	Now it is possible to run git commands on that staging area.
-	In my opinion it will be a lot easier do version control the project now
+	In the staging area it is possible to add files that you are able to be merged into the main project and all the changes made in the working directory will not afected the file added into the staging area.
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-	By using git commands to commit each logical change
+	Using the stage area it is possible to "pre-commit" a file so it is possible to check each file and make sure that they're logical to commit at the same time.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-	Using a branch means the every change made will afect the main project, since only already tested and function code are merged into the main branch.
+	Using a branch means the every change made will not affect the main project, since only already tested and functional code are merged into the main branch.
 
 How do the diagrams help you visualize the branch structure?
 
@@ -21,8 +22,8 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-	Merging two diagrams means that you are combining two versions of the same project, in other words, you are updating your project. We represent this in the diagram so we could keep a track of all modifications made.
+	Merging two branches means that you are combining two versions of the same project, in other words, you are updating your project. We represent this in the diagram so we could keep a track of all modifications made.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 	
-	Automatic merging not always mean that we have a working piece of code.
+	Automatic merging not always means that we have a working piece of code. And when we manually merge something it is possible to fix conflicts.
