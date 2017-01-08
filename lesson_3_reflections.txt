@@ -11,6 +11,10 @@ Describe the differences between forks, clones, and branches. When would you use
 	
 	Forks are used when you want to change something on someone's project but you don't have his/her permission to do it, however, his/her project is posted on GitHub, so you would be able to change whatever you want without changing that person project.
 
-	Clones are used to clone a respository. It can be used to clone a repository localy or to clone a repository from GitHub.
+	Clones are used to clone a respository. It can be used to clone a repository locally or to clone a repository from GitHub.
 
-	Braches are used to add changes to a project without changing the master branch. It is used to try something out without breaking functional stuff.
+	Branches are used to add changes to a project without changing the master branch. It is used to try something out without breaking functional stuff.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	
+	The benefit of having a copy of the last known state of the remote stored locally is to able to track all changes made and the possibility of working offline.
