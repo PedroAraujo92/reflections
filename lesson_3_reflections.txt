@@ -6,3 +6,11 @@ When would you want to use a remote repository rather than keeping all your work
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
   Because sometimes I may have changes on my remote repository that I'm not ready to overwrite with updates.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	
+	Forks are used when you want to change something on someone's project but you don't have his/her permission to do it, however, his/her project is posted on GitHub, so you would be able to change whatever you want without changing that person project.
+
+	Clones are used to clone a respository. It can be used to clone a repository localy or to clone a repository from GitHub.
+
+	Braches are used to add changes to a project without changing the master branch. It is used to try something out without breaking functional stuff.
