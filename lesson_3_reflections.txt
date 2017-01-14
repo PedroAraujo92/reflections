@@ -26,3 +26,13 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 	
 	When I think that my work might conflicts with anothers or when I need someone's approval for my changes. The benefits about working on branches are the fact that all changes made will not trouble someone else's work.
+
+Commands:
+
+git remote  |    Show all remote locations for the repository
+git remote add origin url |     Add a new remote location for the repository. Origin is the default name to use when you create only one remote location. Url should be the https url to the github repository.
+git remove -v  |    Outputs the remote locations with verbose information (fetch and push urls)
+git push origin master  |    Push the master branch to the remote location origin.
+git pull origin master  |    Get the master branch from the remote location origin.
+git pull origin master  |    = Git fetch origin + git merge master origin/master
+git fetch origin  |    Get the changes from the remote location into the (hidden?) origin/master branch
